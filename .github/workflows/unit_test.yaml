@@ -25,4 +25,4 @@ jobs:
           pip install -e .
       - name: Test API with pytest
         run: |
-          python -m unittest discover -s tests
+          python -m unittest discover -s test
